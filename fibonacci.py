@@ -9,5 +9,6 @@ else:
   print("Fibonacci Series:")
   for i in range(n):
     print (a,end=' ')
+    temp=b+a
     a=b
-    b=a+b
+    b=temp

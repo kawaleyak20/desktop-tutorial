@@ -7,8 +7,8 @@ if (n==0):
   print("Empty series!")
 else:
   print("Fibonacci Series:")
-  for i in range(n):
-    print (a,end=' ')
-    temp=b+a
+  for i in range(9):
+    print(a,end=' ')
+    temp=a+b
     a=b
     b=temp
